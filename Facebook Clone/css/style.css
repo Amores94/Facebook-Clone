@@ -15,10 +15,6 @@ html,body {
     margin: 0 auto;
 }
 
-.clear {
-    clear: both;
-}
-
 section {
     height: 743px;
     background: #f0f2f5;
