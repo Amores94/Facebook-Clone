@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+html,body {
+    height: 100%;
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+section {
+    height: 743px;
+    background: #f0f2f5;
+}
+
+.box {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    width: 55%;
+    margin-top: 176px;
+    margin-left: -13px;
+}
+
+img {
+    width: 301px;
+    height: 106px;
+    margin: 0px -1px;
+}
+
+.text h2 {
+    line-height: 32px;
+    width: 500px;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-left: 26px;
+}
+
+.box-wraper {
+    width: 45%;
+    margin: 130px 85px;
+}
+
+form.form-login {
+    width: 400px;
+    text-align: center;
+    border: 1px solid #f0f2f5;
+    box-shadow: 0px 2px 13px 2px rgba(0,0,0,0.1);
+    padding: 5px 5px;
+    border-radius: 8px;
+    background: #ffffff;
+    height: 350px;
+}
+
+.form-element input[type=email],
+.form-element input[type=password] {
+    width: 360px;
+    padding: 15px 17px;
+    margin-top: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    outline: 0;
+}
+
+.form-element input[type=email]:focus,
+.form-element input[type=password]:focus {
+    border: 1px solid #1877f2;
+}
+
+.form-element input[type=submit] {
+    width: 362px;
+    padding: 12px 14px;
+    margin-top: 16px;
+    background: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form-element input[type=submit]:hover {
+    background-color: #0e70f1;
+}
+
+.forgot {
+    margin-top: 15px;
+}
+
+.forgot a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+.line-1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #dadde1;
+}
+
+.new-account a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 19px;
+    background-color: #42b72a;
+    border-radius: 6px;
+    border: 0;
+}
+
+.new-account a:hover {
+    background-color: #3ba626;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 30px;
+    width: 400px;
+}
+
+.form-footer p {
+    font-size: 14px;
+}
+
+.form-footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+footer a {
+    font-weight: 520;
+    line-height: 1.6px;
+    text-decoration: none;
+    padding-right: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
+.lang {
+    margin-top: -40px;
+    padding-right: 6px;
+}
+
+footer .select {
+    color: rgba(0, 0, 0, 0.6);
+    cursor: auto;
+}
+
+footer .select:hover {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.plus {
+    width: 30px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #f0f2f5;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    border-radius: 2px;
+}
+
+.plus h3 {
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.plus:hover {
+    background-color: rgb(230, 232, 235);
+}
+
+.line-2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #dadde1;
+}
+
+.options {
+    margin-top: -30px;
+}
+
+footer .announcement-img {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('../images/announcement.png');
+    background-size: 100% 100%;
+    position: relative;
+    top: 4px;
+}
+
+footer p {
+    font-weight: 520;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 22px;
+}
+
+@media screen and (max-width: 1075px){
+    .text h2 {
+        line-height: normal;
+        width: 350px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .box{
+        display: inline;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo, .box-wraper{
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .text h2 {
+        line-height: normal;
+        max-width: 350px;
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    form.form-login, .box-wraper, .form-footer{
+        margin: 40px auto;
+    }
+
+    .form-footer p{
+        margin-bottom: 40px;
+    }
+}
